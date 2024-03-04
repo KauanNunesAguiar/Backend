@@ -47,7 +47,7 @@ public class Main {
         String lista_de_clubes = retorna_lista_uri("https://venson.net.br/resources/data/clubes.txt");
         String clube = retorna_indice_aleatorio(lista_de_clubes);
 
-        int idade = retorna_numero_aleatorio(18, 40);
+        int idade = retorna_numero_aleatorio(17, 40);
 
 
         System.out.println("%s %s de %d anos joga na posição de %s no time %s".formatted(nome, sobrenome, idade, posicao, clube));
