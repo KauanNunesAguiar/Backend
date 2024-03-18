@@ -1,13 +1,14 @@
 package org.example;
 
-import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
-import java.net.http.HttpResponse.BodyHandlers;
-
 public class Main {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
+        Jogador jogador1 = new Jogador();
+        Jogador jogador2 = new Jogador();
 
+        jogador1.gera_jogador();
+        jogador2.gera_jogador();
+
+        jogador1.print_jogador();
+        jogador2.print_jogador();
     }
 }
